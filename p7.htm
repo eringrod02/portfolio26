@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept - Costumes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+<style>
+.header{
+    background-color: rgb(7, 57,26);
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: 'Fuzzy Bubbles';
+}
+button{
+    background-color: rgb(250, 160, 92);
+    color:white;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    padding: 20px; 
+    font-size: 30px;
+    font-family: 'fuzzy bubbles';
+    cursor: pointer;
+}  
+.btn{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.btn2{
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+}
+.bubble{
+    position: relative;
+    display: inline-block;
+}
+.info{
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color:  rgb(250, 160, 92);
+    padding: 6px;
+    border-radius: 25px;
+    white-space: none;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: 0.3s ease;
+    z-index: 1;
+    font-family: 'fuzzy bubbles';
+    font-size: 20px;
+}
+.bubble:hover .info{
+    opacity: 1; 
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    justify-items: left;
+}
+</style>
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Concept Sketches: Costumes</h1>
+    </div>
+
+<div class="grid">
+     <span class="bubble">
+        <img src="images/knightfit.jpg" width="400" class="">
+        <div class="info">
+            <p>Knight fit ver. 1</p>
+        </div>
+    </span>
+    <span class="bubble">
+        <img src="images/knightfit-final.jpg" width="500" class="">
+        <div class="info">
+            <p>Knight fit final ver.</p>
+        </div>
+    </span>
+
+    <span class="bubble">
+        <img src="images/winterfit-scraped.jpg" width="450" class="">
+        <div class="info">
+            <p>winter Rue fit ver. 1</p>
+        </div>
+    </span>
+    <span class="bubble">
+        <img src="images/winterfit-final.jpg" width="450" class="">
+        <div class="info">
+            <p>winter Rue fit final ver.</p>
+        </div>
+    </span>
+
+    <span class="bubble">
+        <img src="images/desertfit.jpg" width="450" class="">
+        <div class="info">
+            <p>desert Rue fit final ver.</p>
+        </div>
+    </span>
+
+    <span class="bubble">
+        <img src="images/pyre-fit.jpg" width="450" class="">
+        <div class="info">
+            <p>Ashlands fit - Rue final ver.</p>
+        </div>
+    </span>
+    
+    <span class="bubble">
+        <img src="images/royalgurad-fit.jpg" width="450" class="">
+        <div class="info">
+            <p>Royal guard fit Rue final ver.</p>
+        </div>
+    </span>
+
+    <span class="bubble">
+        <img src="images/selkee-fit.jpg" width="450" class="">
+        <div class="info">
+            <p>Wetlands fit Rue final ver.</p>
+        </div>
+    </span>
+</div>
+
+    <div class="btn">
+        <a href="index.html">
+            <button>Home Page</button>
+        </a>
+    </div>
+    <div class="btn2">
+        <a href="p5.htm">
+            <button>Concept</button>
+        </a>
+    </div>
+    
+</body>
+</html>

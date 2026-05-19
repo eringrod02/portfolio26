@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costume Design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+.header{
+    background-color: rgb(7, 57,26);
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'fuzzy bubbles';
+}
+.bubble{
+    position: relative;
+    display: inline-block;
+}
+
+.info{
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color:  rgb(250, 160, 92);
+    padding: 6px;
+    border-radius: 25px;
+    white-space: none;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: 0.3s ease;
+    z-index: 1;
+    font-family: 'fuzzy bubbles';
+    font-size: 20px;
+}
+
+.bubble:hover .info{
+    opacity: 1; 
+}
+
+button{
+    background-color: rgb(250, 160, 92);
+    color:white;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    padding: 20px; 
+    font-size: 30px;
+}
+.btn{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Costume Design</h1>
+    </div>
+
+     <span class="bubble">
+        <img src="images/Cowboys.jpeg" alt="cowboy lineup" width="1000">
+        
+        <div class="info">
+        <p>Cowboy/girl line up</p>
+        </div> 
+    </span>
+     
+    <span class="bubble">
+        <img src="images/Desertfit-Rue.jpeg" alt="Desertfit-Rue" width="1000">
+
+        <div class="info">
+            <p>Desert Outfit for Rue</p>
+        </div>
+    </span>
+
+    <span class="bubble">
+        <img src="images/Royalguard-Rue.jpeg" alt="Royal Guard Outfit" width="1000">
+
+        <div class="info">
+            <p>Royal Guard outfit for Rue</p>
+        </div>
+    </span>
+
+    <span class="bubble">
+        <img src="images/Wyatt.jpeg" alt="Wyatt Superhero pose" width="600">
+
+        <div class="info">
+            <p>The Shield Hero Safeguard aka Wyatt</p>
+        </div>
+    </span>
+
+    <span class="bubble">
+        <img src="images/Waterhero.jpeg" alt="persona as waterhero" width="600">
+
+        <div class="info">
+            <p>Water based superhero</p>
+        </div>
+    </span>
+
+    <div class="btn">
+        <a href="index.html">
+            <button>Home Page</button>
+        </a>
+    </div>
+
+</body>
+</html>

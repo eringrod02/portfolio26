@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Home Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+ body{
+    background-color: white;
+}
+
+.header{
+    background-color: rgb(7, 57,26);
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: 'Fuzzy Bubbles';
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    justify-items: left;
+}
+button{
+    position: relative;
+    width: 700px;
+    height: 150px;
+    background: rgb(250, 160, 92);
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(51, 35, 2, 0.72);
+    border: none;
+}
+button:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    scale: 105%;
+    
+}
+.front{
+    color: white;
+    font-family: 'Fuzzy Bubbles';
+    font-size: 20px;
+}
+.goop{
+   position: absolute; 
+   width: 40%;
+   left: 60%;
+   top: 35%;
+}
+
+    </style>
+</head>
+<body>
+    
+<div class="header">
+    <h1>Erin Rodriguez</h1>
+</div>
+
+<div class="grid">
+    <a href="p4.htm">
+        <button>
+            <div class="box">
+                <div class="front">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+        </button>
+    </a>
+
+ <a href="p1.htm">
+        <button>
+            <div class="box">
+                <div class="front">
+                    <h1>Character Work</h1>
+                </div>
+            </div>
+        </button>
+    </a>
+
+    <a href="p2.htm">
+        <button>
+            <div class="box">
+                <div class="front">
+                    <h1>Costume Design</h1>
+                </div>
+            </div>
+        </button>
+    </a>
+    
+    <a href="p5.htm">
+        <button>
+            <div class="box">
+                <div class="front">
+                    <h1>Concept Sketches</h1>
+                </div>
+            </div>
+        </button>
+    </a>
+
+    <a href="p3.htm">
+        <button>
+            <div class="box">
+                <div class="front">
+                    <h1>Animations</h1>
+                </div>
+            </div>
+        </button>
+    </a>
+
+</div>
+
+<img src="images/goop.png" alt="chibi goop" class="goop">
+
+</body>
+</html>

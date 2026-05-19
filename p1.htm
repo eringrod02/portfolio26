@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Work</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+.header{
+    background-color: rgb(7, 57,26);
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: 'Fuzzy Bubbles';
+}
+.carter{
+   position: relative;
+   
+}
+.bubble{
+    position: relative;
+    display: inline-block;
+}
+
+.info{
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color:  rgb(250, 160, 92);
+    padding: 6px;
+    border-radius: 25px;
+    white-space: none;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: 0.3s ease;
+    z-index: 1;
+    font-family: 'fuzzy bubbles';
+    font-size: 20px;
+}
+.bubble:hover .info{
+    opacity: 1; 
+
+}
+
+.rue{
+    position: relative;
+}
+
+button{
+    background-color: rgb(250, 160, 92);
+    color:white;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    padding: 20px; 
+    font-size: 30px;
+    font-family: 'fuzzy bubbles';
+    cursor: pointer;
+}
+.btn{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+    <h1>Character Work</h1>
+    </div>
+
+   <div class="grid">
+    <span class="bubble">
+        <img src="images/Carter.jpeg" width="700" class="carter">
+        <div class="info">
+            <p>Prince Carter's Ref Sheet</p>
+        </div>
+    </span>
+    
+    <span class="bubble">
+        <img src="images/Rue.jpeg" alt="Rue's ref sheet" width="700" class="rue">
+        <div class="info">
+            <p>Rue's Ref Sheet</p>
+        </div>
+    </span>
+
+<span class="bubble">
+    <img src="images/Zephyrine.jpeg" alt="Zephyrine's ref sheet" width="700" class="Zeph">
+    <div class="info">
+        <p>Lady Zephyrine's Ref Sheet</p>
+    </div>
+</span>
+ </div>
+<div class="btn">
+    <a href="index.html">
+        <button>Home Page</button>
+    </a>
+</div>
+</body>
+</html>
